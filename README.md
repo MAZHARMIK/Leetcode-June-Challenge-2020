@@ -13,7 +13,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 		<tbody>
 			<tr>
 			  <td>Invert Binary Tree</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-May-Challenge-2020/blob/master/Invert%20Binary%20Tree%20(C%2B%2B)"><img src="https://www.techiedelight.com/wp-content/uploads/invert-binary-tree.png" width="400" height="150"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Invert%20Binary%20Tree%20(C%2B%2B%20Recursive)"><img src="https://www.techiedelight.com/wp-content/uploads/invert-binary-tree.png" width="400" height="150"></a></td>
 			</tr>
 		</tbody>
 </table>
