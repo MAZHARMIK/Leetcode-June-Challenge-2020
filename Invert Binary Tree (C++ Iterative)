@@ -1,0 +1,23 @@
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        if(root == NULL)
+        return root;
+
+        queue<TreeNode*> que;
+        que.push(root);
+
+        while(!que.empty()){
+            TreeNode* top = que.front();
+            if(top->left)
+                que.push(top->left);
+            if(top->right)
+                que.push(top->right);
+            TreeNode* temp = top->left;
+            top->left = top->right;
+            top->right = temp;
+            que.pop();
+        }
+    return root;
+    }
+};
