@@ -15,5 +15,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Invert Binary Tree</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Invert%20Binary%20Tree%20(C%2B%2B%20Recursive)"><img src="https://www.techiedelight.com/wp-content/uploads/invert-binary-tree.png" width="400" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Delete Node in a Linked List</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Delete%20Node%20in%20a%20Linked%20List%20(C%2B%2B)"><img src="https://www.cs-ib.net/assets/img/delete-node-linked-list-1.jpg" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
