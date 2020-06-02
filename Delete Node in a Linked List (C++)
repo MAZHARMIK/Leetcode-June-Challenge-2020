@@ -1,0 +1,14 @@
+typedef ListNode Node;
+class Solution {
+public:
+    void deleteNode(ListNode* node) {
+        Node* prev = NULL;
+        while(node->next){
+            prev = node;
+            node->val = node->next->val;
+            node = node->next;
+        }
+        delete(node);
+        prev->next = NULL;
+    }
+};
