@@ -19,5 +19,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Delete Node in a Linked List</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Delete%20Node%20in%20a%20Linked%20List%20(C%2B%2B)"><img src="https://www.cs-ib.net/assets/img/delete-node-linked-list-1.jpg" width="400" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Two City Scheduling</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Two%20City%20Scheduling%20(C%2B%2B)"><img src="https://2f0m6a43zofy3ffa863wmmhv-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Switch-to-Employee-Scheduling-Software.jpg" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
