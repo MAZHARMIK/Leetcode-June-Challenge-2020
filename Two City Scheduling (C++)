@@ -1,0 +1,22 @@
+class Solution {
+public:
+    static bool myfunction(vector<int> a, vector<int> b){
+        return ((a[1]-a[0]) < (b[1]-b[0])); //sorting according to difference between the pairs
+    }
+    int twoCitySchedCost(vector<vector<int>>& costs) {
+        sort(costs.begin(), costs.end(), myfunction);
+        
+        int minCost = 0;
+        //select for B city
+        for(int i = 0; i<costs.size()/2; i++){
+            minCost += costs[i][1];
+        }
+        
+        //select for A city
+        for(int i = costs.size()/2; i<costs.size(); i++){
+            minCost += costs[i][0];
+        }
+        
+        return minCost;
+    }
+};
