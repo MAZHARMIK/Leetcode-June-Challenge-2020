@@ -27,5 +27,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Reverse String</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Reverse%20String%20(C%2B%2B)"><img src="https://www.geeksforgeeks.org/wp-content/uploads/reverse-a-string.png" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Random Pick with Weight</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Random%20Pick%20with%20Weight%20(C%2B%2B)"><img src="https://i.stack.imgur.com/cAqV4.jpg" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
