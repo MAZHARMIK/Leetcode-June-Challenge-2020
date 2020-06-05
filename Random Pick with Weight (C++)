@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int sum = 0;
+    vector<int> cumulativeSum;
+    Solution(vector<int>& w) {
+        sum = 0;
+        for(int i = 0; i<w.size(); i++){
+            sum +=w[i];
+            cumulativeSum.push_back(sum);
+        }
+    }
+    
+    int pickIndex() {
+        int l = 0, r = cumulativeSum.size();
+        int randSum = (rand()% sum)+1;
+        while(l < r){
+            int mid = l+(r-l)/2;
+            if(cumulativeSum[mid] < randSum)
+                l = mid+1;
+            else
+                r = mid;
+        }
+        return l;
+    }
+};
