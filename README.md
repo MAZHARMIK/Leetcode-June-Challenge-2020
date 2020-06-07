@@ -35,5 +35,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Queue Reconstruction by Height</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Queue%20Reconstruction%20by%20Height%20(C%2B%2B)"><img src="https://img.tfd.com/wn/D9/6768B-queue.png" width="300" height="100"></a></td>
 			</tr>
+			<tr>
+			  <td>Coin Change 2</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Coin%20Change%202%20(C%2B%2B)"><img src="https://i.ebayimg.com/images/i/143014606264-0-1/s-l1000.jpg" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
