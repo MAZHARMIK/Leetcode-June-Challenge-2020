@@ -39,5 +39,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Coin Change 2</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Coin%20Change%202%20(C%2B%2B)"><img src="https://i.ebayimg.com/images/i/143014606264-0-1/s-l1000.jpg" width="400" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Power of Two</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Power%20of%20Two%20(C%2B%2B)"><img src="https://2.bp.blogspot.com/-fpm-3Sa6oCc/VuopJrJlz0I/AAAAAAAAA9c/jlJOl2ockH0CSDQPDhns7v6_b49K9uZtQ/s1600/power-of-2.jpg" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
