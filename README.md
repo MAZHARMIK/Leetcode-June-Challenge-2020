@@ -45,7 +45,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			</tr>
 			<tr>
 			  <td>Is Subsequence</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Is%20Subsequence%20(C%2B%2B)"><img src="https://simplyexplained.tech/wp-content/uploads/2019/07/longest-common-subsequence-e1562114150792.png" width="400" height="150"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Is%20Subsequence%20(O(n))"><img src="https://simplyexplained.tech/wp-content/uploads/2019/07/longest-common-subsequence-e1562114150792.png" width="400" height="150"></a></td>
 			</tr>
 		</tbody>
 </table>
