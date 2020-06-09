@@ -43,5 +43,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Power of Two</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Power%20of%20Two%20(C%2B%2B)"><img src="https://2.bp.blogspot.com/-fpm-3Sa6oCc/VuopJrJlz0I/AAAAAAAAA9c/jlJOl2ockH0CSDQPDhns7v6_b49K9uZtQ/s1600/power-of-2.jpg" width="400" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Is Subsequence</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Is%20Subsequence%20(C%2B%2B)"><img src="https://simplyexplained.tech/wp-content/uploads/2019/07/longest-common-subsequence-e1562114150792.png" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
