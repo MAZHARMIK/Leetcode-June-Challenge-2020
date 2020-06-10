@@ -47,5 +47,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Is Subsequence</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Is%20Subsequence%20(O(n))"><img src="https://simplyexplained.tech/wp-content/uploads/2019/07/longest-common-subsequence-e1562114150792.png" width="400" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Search Insert Position</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Search%20Insert%20Position%20(C%2B%2B)"><img src="https://3.bp.blogspot.com/-k-8FP-CV-d0/Uff3rgFhcKI/AAAAAAAAA00/3gW-KtL2yZc/s1600/binary-search-java.png" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
