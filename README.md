@@ -51,5 +51,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Search Insert Position</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Search%20Insert%20Position%20(C%2B%2B)"><img src="https://3.bp.blogspot.com/-k-8FP-CV-d0/Uff3rgFhcKI/AAAAAAAAA00/3gW-KtL2yZc/s1600/binary-search-java.png" width="400" height="150"></a></td>
 			</tr>
+			<tr>
+			  <td>Sort Colors</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Sort%20Colors%20(C%2B%2B)"><img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/insertion_sort-recursion.png" width="400" height="150"></a></td>
+			</tr>
 		</tbody>
 </table>
