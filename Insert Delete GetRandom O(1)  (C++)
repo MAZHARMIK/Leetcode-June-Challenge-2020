@@ -1,0 +1,38 @@
+class RandomizedSet {
+public:
+
+    map<int, int> my_map;
+    vector<int> vec;
+    RandomizedSet() {
+
+    }
+
+    bool insert(int val) {
+        if(my_map.count(val))
+            return false;
+        int n = vec.size();
+        vec.push_back(val);
+        my_map.insert({val, n});
+        return true;
+    }
+
+    bool remove(int val) {
+        if(!my_map.count(val))
+            return false;
+        int index = my_map[val];
+        int last_index = vec.size()-1;
+        vec[index] = vec[last_index];
+        my_map[vec[last_index]] = index;
+        my_map.erase(val);
+        vec.erase(vec.begin() + last_index);
+        return true;
+    }
+
+    int getRandom() {
+        int n = vec.size();
+        if(n == 1)
+            return vec[0];
+        int randIndex = rand()%(n);
+        return vec[randIndex];
+    }
+};
