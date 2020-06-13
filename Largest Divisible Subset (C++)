@@ -1,0 +1,46 @@
+class Solution {
+public:
+    void Util(vector<int>& nums, vector<int>& vectorForFurther, vector<int>& TrackForSizes, int& globalMaxLength, int &globalMaxIndex, int n) {
+        
+    }
+    vector<int> largestDivisibleSubset(vector<int>& nums) {
+        if(nums.size()<=1)
+        return nums;
+        int n = nums.size();
+
+        sort(nums.begin(), nums.end());
+
+        vector<int> vectorForFurther(n, -1);
+        vector<int> TrackForSizes(n, 1);
+        int globalMaxLength = 1;
+        int globalMaxIndex = 0;
+
+        for(int i = n-1; i>=0; i--){
+            int j = i+1;
+            int localMaxLength = 0;
+            int localMaxIndex = i;
+            while(j < n){
+                if(nums[j] % nums[i] == 0 && TrackForSizes[j] > localMaxLength){
+                    localMaxLength = TrackForSizes[j];
+                    localMaxIndex = j;
+                }
+                j++;
+            }
+            if(localMaxIndex != i){
+                TrackForSizes[i] += TrackForSizes[localMaxIndex];
+                vectorForFurther[i] = localMaxIndex;
+                if(localMaxLength + 1 > globalMaxLength){
+                    globalMaxLength = localMaxLength+1;
+                    globalMaxIndex = i;
+                }
+            }
+        }
+        vector<int> result;
+        int curr = globalMaxIndex;
+        while(curr >= 0){
+            result.push_back(nums[curr]);
+            curr = vectorForFurther[curr];
+        }
+        return result;
+    }
+};
