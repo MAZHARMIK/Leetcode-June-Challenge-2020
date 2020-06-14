@@ -1,0 +1,48 @@
+class Solution
+{
+public:
+    void djkstrasAlgo(int src,int dst,int k,unordered_map<int,vector<pair<int,int>>> &DirectedGraph,vector<bool> &trackVisitedNode,int &cheapestFlight,int stopingPoints,int totalCost) {
+      if(stopingPoints-2>k || trackVisitedNode[src]) {
+          return;
+      }
+      if(src==dst){
+          cheapestFlight=min(cheapestFlight,totalCost);
+          return;
+      }
+      trackVisitedNode[src]=true;
+      
+      for(int i=0;i<DirectedGraph[src].size();i++)
+      {
+          int currentStop=DirectedGraph[src][i].first;
+          
+          int CostForCurrentStop=DirectedGraph[src][i].second;
+          
+          if(totalCost+CostForCurrentStop>cheapestFlight){
+                continue;
+          }
+          if(!trackVisitedNode[currentStop]) {                      
+            djkstrasAlgo(currentStop,dst,k,DirectedGraph,trackVisitedNode,cheapestFlight,
+            stopingPoints+1,totalCost+CostForCurrentStop);
+          }
+      }
+        trackVisitedNode[src]=false;
+        return;
+    }
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K)
+    {
+     if(flights.size()==0)
+         return 0;
+     unordered_map<int,vector<pair<int,int>>> DirectedGraph;
+     //populate the graph
+     for(int i=0;i<flights.size();i++){
+        DirectedGraph[flights[i][0]].push_back({flights[i][1],flights[i][2]});
+     }
+     vector<bool> trackVisitedNode(n,false);
+     int cheapestFlight=INT_MAX;
+     djkstrasAlgo(src,dst,K,DirectedGraph,trackVisitedNode,cheapestFlight,1,0);
+     if(cheapestFlight == INT_MAX)
+        return -1;
+     else
+        return cheapestFlight;
+    }
+};
