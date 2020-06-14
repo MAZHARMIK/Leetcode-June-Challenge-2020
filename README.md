@@ -60,8 +60,12 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Insert%20Delete%20GetRandom%20O(1)%20%20(C%2B%2B)"><img src="https://cdn.slidesharecdn.com/ss_thumbnails/vectorlistmapsmith-140804034719-phpapp01-thumbnail-4.jpg?cb=1407124101" width="400" height="200"></a></td>
 			</tr>
 			<tr>
-			  <td>Insert Delete GetRandom O(1)</td>
+			  <td>Largest Divisible Subset</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Largest%20Divisible%20Subset%20(C++)"><img src="https://skullsinthestars.files.wordpress.com/2013/12/subsets1.jpg" width="400" height="200"></a></td>
+			</tr>
+			<tr>
+			  <td>Cheapest Flights Within K Stops</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Cheapest%20Flights%20Within%20K%20Stops%20(C%2B%2B)"><img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/dijikstra.png" width="400" height="200"></a></td>
 			</tr>
 		</tbody>
 </table>
