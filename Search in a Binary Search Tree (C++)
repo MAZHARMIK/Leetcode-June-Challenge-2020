@@ -1,0 +1,20 @@
+class Solution {
+public:
+    TreeNode* searchUtil(TreeNode* root, int val){
+        if(root == NULL)
+            return root;
+        
+        if(val < root->val) // go to left subtree
+            return searchUtil(root->left, val);
+        else if(val > root->val)
+            return searchUtil(root->right, val);
+        else
+            return root;
+    }
+    TreeNode* searchBST(TreeNode* root, int val) {
+        if(root == NULL || root->val == val)
+            return root;
+        
+        return searchUtil(root, val);
+    }
+};
