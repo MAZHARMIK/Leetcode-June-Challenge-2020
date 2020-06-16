@@ -1,6 +1,8 @@
 class Solution {
 public:
     string validateIpV4(string s1){
+        if(s1.back() == '.')
+            return "Neither";
         int count = 0;
         stringstream check1(s1);
         string intermediate;
@@ -29,63 +31,53 @@ public:
     }
 
     string validateIpV6(string s1){
-        int count = 0;
-    stringstream check1(s1);
-    string intermediate;
-    while(getline(check1, intermediate, ':')) {
-        if(intermediate.length() > 4 || intermediate.length() == 0)
+        if(s1.back() == ':')
             return "Neither";
-
-        for(char ch:intermediate){
-            //if any char is alphabet then it should be only a,b,c,d,e,f,A,B,C,D,E,F
-            // else it Neither
-            if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122)){
-                switch(ch) {
-                  case 'A' :
-                  case 'a' :
-                  case 'B' :
-                  case 'b' :
-                  case 'C' :
-                  case 'c' :
-                  case 'D' :
-                  case 'd' :
-                  case 'E' :
-                  case 'e' :
-                  case 'F' :
-                  case 'f' :
-                      break;
-                  default :
-                     return "Neither";
-                }
-            }
-            else if (!(ch >= 48 && ch <= 57))
+        int count = 0;
+        stringstream check1(s1);
+        string intermediate;
+        while(getline(check1, intermediate, ':')) {
+            if(intermediate.length() > 4 || intermediate.length() == 0)
                 return "Neither";
-        }
 
-        count++;
-    }
-    if(count != 8)
-        return "Neither";
-    return "IPv6";
+            for(char ch:intermediate){
+                //if any char is alphabet then is should be only a,b,c,d,e,f,A,B,C,D,E,F
+                // else it Neither
+                if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122)){
+                    ch = char(tolower(ch));
+                    switch(ch) {
+                      case 'a' :
+                      case 'b' :
+                      case 'c' :
+                      case 'd' :
+                      case 'e' :
+                      case 'f' :
+                          break;
+                      default :
+                         return "Neither";
+                    }
+                }
+                else if (ch < 48 || ch > 57)
+                    return "Neither";
+            }
+            count++;
+        }
+        if(count != 8)
+            return "Neither";
+        return "IPv6";
     }
     
     string validIPAddress(string s1) {
         if(s1.empty())
             return "Neither";
-        if(s1.back() == ':' || s1.back() == '.')
-            return "Neither";
-        bool ipV4 = false;
-        bool ipV6 = false;
-        if (s1.find('.') != std::string::npos){
-            ipV4 = true;
-        } else if(s1.find(':') != std::string::npos){
-            ipV6 = true;
-        } else
-            return "Neither";
 
-        if(ipV4){
+        if (s1.find('.') != std::string::npos)
             return validateIpV4(s1);
-        }
-        return validateIpV6(s1);
+        
+        if(s1.find(':') != std::string::npos)
+            return validateIpV6(s1);
+        
+        return "Neither";
+
     }
 };
