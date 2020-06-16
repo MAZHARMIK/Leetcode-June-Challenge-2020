@@ -71,5 +71,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Search in a Binary Search Tree</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Search%20in%20a%20Binary%20Search%20Tree%20(C%2B%2B)"><img src="http://108.61.119.12/wp-content/uploads/2014/10/binary-tree-1-search.gif" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Validate IP Address</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Validate%20IP%20Address%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/D1avGPpSJHs/maxresdefault.jpg" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
