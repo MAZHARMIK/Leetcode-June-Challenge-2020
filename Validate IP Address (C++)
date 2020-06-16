@@ -37,7 +37,7 @@ public:
             return "Neither";
 
         for(char ch:intermediate){
-            //if any char is alphabet then is should be only a,b,c,d,e,f,A,B,C,D,E,F
+            //if any char is alphabet then it should be only a,b,c,d,e,f,A,B,C,D,E,F
             // else it Neither
             if ((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122)){
                 switch(ch) {
