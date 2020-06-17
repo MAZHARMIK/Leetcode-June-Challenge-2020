@@ -1,0 +1,45 @@
+class Solution {
+public:
+    void manipulate(vector<vector<char>>& board, int i, int j, int row, int col) {
+        if(i < 0 || i >=row || j < 0 || j >= col || board[i][j] != 'O')
+            return;
+        
+        board[i][j] = 'A';
+        manipulate(board, i+1, j, row, col);
+        manipulate(board, i-1, j, row, col);
+        manipulate(board, i, j+1, row, col);
+        manipulate(board, i, j-1, row, col);
+    }
+    
+    void capture(vector<vector<char>>& board, int row, int col){
+        for(int i = 0; i<col; i++){
+            if(board[0][i] == 'O')
+                manipulate(board, 0, i, row, col);
+            if(board[row-1][i] == 'O')
+                manipulate(board, row-1, i, row, col);
+        }
+        
+        for(int i = 0; i<row; i++){
+            if(board[i][0] == 'O')
+                manipulate(board, i, 0, row, col);
+            if(board[i][col-1] == 'O')
+                manipulate(board, i, col-1, row, col);
+        }
+        
+        for(int i = 0; i<row; i++){
+            for(int j = 0; j<col; j++){
+                if(board[i][j] == 'O')
+                    board[i][j] = 'X';
+                else if(board[i][j] == 'A')
+                    board[i][j] = 'O';
+            }
+        }
+        
+    }
+    
+    void solve(vector<vector<char>>& board) {
+        if(board.size() == 0)
+            return;
+        capture(board, board.size(), board[0].size());
+    }
+};
