@@ -75,5 +75,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Validate IP Address</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Validate%20IP%20Address%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/D1avGPpSJHs/maxresdefault.jpg" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Surrounded Regions</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Surrounded%20Regions%20(C%2B%2B)"><img src="https://leetcode.com/articles/Figures/130/130_eg.png" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
