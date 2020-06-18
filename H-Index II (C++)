@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int getLowerBound(vector<int>& vec, int h){
+        return (lower_bound(vec.begin(), vec.end(), h) - vec.begin());
+    }
+    int hIndex(vector<int>& vec) {
+        int n = vec.size();
+        if(n == 0)
+            return 0;
+        int h = n;
+        int i, index;
+        while(h>=0){
+            index = getLowerBound(vec, h);
+            if(h <= n-index) {
+                return h;
+            }
+            else
+                h--;
+        }
+        return h;
+    }
+};
