@@ -79,5 +79,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Surrounded Regions</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Surrounded%20Regions%20(C%2B%2B)"><img src="https://leetcode.com/articles/Figures/130/130_eg.png" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>H-Index II</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/H-Index%20II%20(C%2B%2B)"><img src="https://image.slidesharecdn.com/academia-introcitationanalysismaster-150720174203-lva1-app6891/95/citation-analysis-with-publish-or-perish-and-google-scholar-14-638.jpg?cb=1437414454" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
