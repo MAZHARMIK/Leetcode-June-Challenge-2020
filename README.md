@@ -83,5 +83,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>H-Index II</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/H-Index%20II%20(C%2B%2B)"><img src="https://image.slidesharecdn.com/academia-introcitationanalysismaster-150720174203-lva1-app6891/95/citation-analysis-with-publish-or-perish-and-google-scholar-14-638.jpg?cb=1437414454" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Longest Duplicate Substring</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Longest%20Duplicate%20Substring%20(C%2B%2B)"><img src="http://rosalind.info/media/problems/suff/suffix_tree.png" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
