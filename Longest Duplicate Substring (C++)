@@ -1,0 +1,34 @@
+
+class Solution {
+public:
+    string longestDupSubstring(string S)
+    {
+        string_view longestRepeatedSubstring;
+        unordered_set<string_view> set;
+        int startOfString = 1;
+        int reach = S.size() - 1;
+        //apply binary search
+        while (startOfString <= reach)
+        {
+            int middleIndex = startOfString + (reach - startOfString) / 2; //to avoid overflow
+            bool pikPoint = false;
+            for (int i = 0; i != S.size() - middleIndex + 1; ++i) {
+                auto [it, inserted] = set.emplace(S.data() + i, middleIndex);
+                if (!inserted) {
+                    longestRepeatedSubstring = *it;
+                    pikPoint = true;
+                    break;
+                }
+            }
+            if (pikPoint) {
+                startOfString = middleIndex + 1;
+            }
+            else {
+                reach = middleIndex - 1;
+            }
+            set.clear();
+        }
+
+        return {longestRepeatedSubstring.begin(), longestRepeatedSubstring.end()};
+    }
+};
