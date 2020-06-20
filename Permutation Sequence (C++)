@@ -1,0 +1,37 @@
+class Solution {
+public:
+    void populate(vector<int>& a, vector<int>& b, int n){
+        for(int i = 1; i < n; i++){
+            a[i] = a[i-1] * (i+1);
+            b[i] = i+1;
+        }
+    }
+
+    string getSequence(vector<int>& a, vector<int>& b, int n, int k){
+        string result = "";
+        while(result.size() < n-1){
+            int duplicate = a[a.size() - 2];
+            int latest = (k-1)/duplicate;
+            result += to_string(b[latest]);
+            b.erase(b.begin() + latest);
+            a.pop_back();
+            k = k % duplicate;
+            if(k == 0){
+                for(int i = b.size()-1; i>=0; i--){
+                    result += to_string(b[i]);
+                }
+            }
+        }
+        if(result.size() < n) {
+            result += to_string(b[0]);
+        }
+        return result;
+    }
+    string getPermutation(int n, int k) {
+        vector<int> a(n, 1);
+        vector<int> b(n, 1);
+        populate(a, b, n);
+
+        return getSequence(a, b, n, k);
+    }
+};
