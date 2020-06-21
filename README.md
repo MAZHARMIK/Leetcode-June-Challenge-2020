@@ -88,8 +88,8 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Longest%20Duplicate%20Substring%20(C%2B%2B)"><img src="http://rosalind.info/media/problems/suff/suffix_tree.png" width="400" height="200"></a></td>
 			</tr>
 			<tr>
-			  <td>Permutation Sequence</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Permutation%20Sequence%20(C%2B%2B)"><img src="https://www.eandbsoftware.org/wp-content/uploads/2013/07/NewPermutation.gif" width="400" height="200"></a></td>
+			  <td>Dungeon Game</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Dungeon%20Game%20(C%2B%2B)"><img src="https://i.stack.imgur.com/ceUqb.png" width="400" height="200"></a></td>
 			</tr>
 		</tbody>
 </table>
