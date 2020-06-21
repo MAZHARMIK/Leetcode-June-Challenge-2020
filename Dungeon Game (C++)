@@ -1,0 +1,45 @@
+class Solution {
+public:
+    int minHealth(int rows, int columns, vector<vector<int>>& t, vector<vector<int>>& dungeon){
+        int down, right, health;
+        for(int i = rows - 1; i >= 0; --i){
+            for(int j = columns - 1; j >= 0; --j){
+                if(!(i == rows - 1 && j == columns - 1)){
+
+                    if(i+1 == rows)
+                        down = INT_MAX;
+                    else
+                        down = t[i + 1][j] - dungeon[i][j];
+
+                    if(j+1 == columns)
+                        right = INT_MAX;
+                    else
+                        right = t[i][j + 1] - dungeon[i][j];
+
+                    health = min(down, right);
+                    if(health<=0)
+                        t[i][j] = 1;
+                    else
+                        t[i][j] = health;
+                }
+            }
+        }
+
+        return t[0][0] ;
+    }
+    int calculateMinimumHP(vector<vector<int>>& dungeon) {
+        if(dungeon.size() == 0 || dungeon[0].size() == 0) return 1;
+
+        int rows = dungeon.size();
+        int columns = dungeon[0].size();
+        vector<vector<int>> t(rows+1, vector<int>(columns+1));
+        //Base case : initialization
+        t[rows - 1][columns - 1] = 1 - dungeon[rows - 1][columns - 1];
+        if(t[rows - 1][columns - 1] <= 0)
+            t[rows - 1][columns - 1] = 1;
+        else
+            t[rows - 1][columns - 1] = t[rows - 1][columns - 1];
+
+        return minHealth(rows, columns, t, dungeon);    
+    }
+};
