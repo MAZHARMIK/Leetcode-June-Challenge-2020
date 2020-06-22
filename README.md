@@ -91,5 +91,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Dungeon Game</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Dungeon%20Game%20(C%2B%2B)"><img src="https://i.stack.imgur.com/ceUqb.png" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Single Number II</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Single%20Number%20II%20(C%2B%2B)"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Rotate_left_logically.svg/1200px-Rotate_left_logically.svg.png" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
