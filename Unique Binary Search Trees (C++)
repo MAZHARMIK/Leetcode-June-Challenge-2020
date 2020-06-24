@@ -1,0 +1,37 @@
+//Approach 1 (Dynamic Programming) : Time (O(n^2)) 
+
+class Solution {
+public:
+    int numTrees(int n) {
+        vector<unsigned int> t(n+1, 0);
+        t[0] = t[1] = 1;
+        for(int i = 2; i<n+1; i++){
+            for(int j = 0; j<i; j++){
+                t[i] += t[j]*t[i-j-1];
+            }
+        }
+        
+        return t[n];
+    }
+};
+
+
+//Approach 2 (Using Binomial Coefficient Formula) : Time (O(n)) 
+class Solution {
+public:
+    unsigned long int BinC(int n, int k){
+        unsigned long int result = 1;
+        
+        if(k > n)
+            k = n-k;
+        
+        for(int i = 0; i<k; i++){
+            result *= (n-i);
+            result /= (i+1);
+        }
+        return result;
+    }
+    int numTrees(int n) {
+        return BinC(2*n, n)/(n+1);
+    }
+};
