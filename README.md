@@ -99,5 +99,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Count Complete Tree Nodes</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Count%20Complete%20Tree%20Nodes%20(C%2B%2B)"><img src="http://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/pix/full_complete.bmp" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Unique Binary Search Trees</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Unique%20Binary%20Search%20Trees%20(C%2B%2B)"><img src="https://i.stack.imgur.com/dCAxp.gif" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
