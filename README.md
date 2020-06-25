@@ -103,5 +103,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Unique Binary Search Trees</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Unique%20Binary%20Search%20Trees%20(C%2B%2B)"><img src="https://i.stack.imgur.com/dCAxp.gif" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Find the Duplicate Number</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Find%20the%20Duplicate%20Number%20(C%2B%2B)"><img src="https://codeatsociallywired.files.wordpress.com/2013/07/tortoise-and-hare.gif" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
