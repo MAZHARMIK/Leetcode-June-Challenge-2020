@@ -107,5 +107,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Find the Duplicate Number</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Find%20the%20Duplicate%20Number%20(C%2B%2B)"><img src="https://codeatsociallywired.files.wordpress.com/2013/07/tortoise-and-hare.gif" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Sum Root to Leaf Numbers</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Sum%20Root%20to%20Leaf%20Numbers%20(C%2B%2B)"><img src="https://www.ritambhara.in/wp-content/uploads/2012/06/tree1.jpg" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
