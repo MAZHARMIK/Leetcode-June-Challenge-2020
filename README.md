@@ -111,5 +111,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Sum Root to Leaf Numbers</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Sum%20Root%20to%20Leaf%20Numbers%20(C%2B%2B)"><img src="https://www.ritambhara.in/wp-content/uploads/2012/06/tree1.jpg" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Perfect Squares</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Perfect%20Squares%20(C%2B%2B)"><img src="http://1.bp.blogspot.com/-OhSqTXyRxAk/UemmrGGOjRI/AAAAAAAANOg/IwjlVOj-B4U/s1600/Perfect-Square-logo=web.jpg" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
