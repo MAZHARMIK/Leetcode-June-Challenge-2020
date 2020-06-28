@@ -1,0 +1,25 @@
+class Solution {
+    public void travel(Map<String, PriorityQueue<String>> my_map, LinkedList<String> result, String source) {
+        PriorityQueue<String> pri_queue = my_map.get(source);
+        while (pri_queue != null && !pri_queue.isEmpty()) {
+            travel(my_map, result, pri_queue.poll());
+        }
+
+        result.addFirst(source);
+    }
+    public List<String> findItinerary(List<List<String>> tickets) {
+        HashMap<String, PriorityQueue<String>> my_map = new HashMap<>();
+        for(int i =0; i <tickets.size(); i++){
+            if(!my_map.containsKey(tickets.get(i).get(0))){
+                PriorityQueue<String> temp = new PriorityQueue<>();
+                my_map.put(tickets.get(i).get(0), temp);
+            }
+            my_map.get(tickets.get(i).get(0)).add(tickets.get(i).get(1));
+        }
+        
+        LinkedList<String> result = new LinkedList<>();
+        String source = "JFK";
+        travel(my_map, result, source);
+        return result;
+    }   
+}
