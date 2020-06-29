@@ -119,5 +119,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Reconstruct Itinerary</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Reconstruct%20Itinerary%20(Java)"><img src="https://lh5.googleusercontent.com/proxy/6ynzb1_KarC6yC4hx6CoD0Aztg2LQCITxIIvCznsahPOy5vlqdvLLgdKtIMhbdO6A9Fd8w7Vkh4yd483mkqZjuRPCeeUzkTwFiVCh1YVc04UVg=w1200-h630-p-k-no-nu" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Unique Paths</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Unique%20Paths%20(C%2B%2B)"><img src="https://hocnest.com/img/unique_robot_paths/image10.png" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
