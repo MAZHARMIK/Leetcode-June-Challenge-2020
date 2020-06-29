@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
+        if(m == 1 || n == 1)
+            return 1;
+        vector<vector<int>> t(n, vector<int>(m, 1));
+        for(int row = n-2; row>=0; row--){
+            for(int col = m-2; col>=0; col--){
+                t[row][col] = t[row][col+1] + t[row+1][col];
+            }
+        }
+        return t[0][0];
+    }
+};
