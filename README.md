@@ -123,5 +123,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/june-l
 			  <td>Unique Paths</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Unique%20Paths%20(C%2B%2B)"><img src="https://hocnest.com/img/unique_robot_paths/image10.png" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Word Search II</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-June-Challenge-2020/blob/master/Word%20Search%20II%20(C%2B%2B)"><img src="https://cdn-images-1.medium.com/max/1600/1*e3549k5A9oCLn-vZTxsFEA.gif" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
